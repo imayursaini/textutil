@@ -10,7 +10,7 @@ export default function About(props) {
         color: props.mode ==='dark'?'white':'#042743',
         backgroundColor: props.mode ==='dark'?'rgb(36 74 104)':'white', 
     }
-    
+    console.log('something goes here');
     return (
         <div className="container">
             <h1 className="my-3" style={{color: props.mode ==='dark'?'white':'#042743'}}>About Us</h1>
@@ -20,6 +20,7 @@ export default function About(props) {
                     <button className="accordion-button" type="button" style={myStyle} data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <strong>Analyze Your text </strong>
                     </button>
+                    <div>Hi</div>
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div className="accordion-body" style={myStyle}>
@@ -33,6 +34,7 @@ export default function About(props) {
                     <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     <strong>Free to use </strong>
                     </button>
+                    <div>Hi</div>
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div className="accordion-body" style={myStyle}>
@@ -45,6 +47,7 @@ export default function About(props) {
                     <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     <strong>Browser Compatible </strong>
                     </button>
+                    <div>Hi</div>
                     </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div className="accordion-body" style={myStyle}>
