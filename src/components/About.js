@@ -27,7 +27,7 @@ export default function About(props) {
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div className="accordion-body" style={myStyle}>
                     Textutils gives you a way to analyze your text quickly and efficiently. Be it word count, character count or 
-<h1>Hello</h1>
+
                     </div>
                     </div>
                 </div>
@@ -36,6 +36,7 @@ export default function About(props) {
                     <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     <strong>Free to use </strong>
                     </button>
+                    <div>Hi</div>
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div className="accordion-body" style={myStyle}>
@@ -48,6 +49,7 @@ export default function About(props) {
                     <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     <strong>Browser Compatible </strong>
                     </button>
+                    <div>Hi</div>
                     </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div className="accordion-body" style={myStyle}>
